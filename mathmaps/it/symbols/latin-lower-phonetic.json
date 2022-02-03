@@ -862,7 +862,7 @@
     "key": "0261",
     "mappings": {
       "default": {
-        "default": "script g"
+        "default": "g"
       }
     }
   },
