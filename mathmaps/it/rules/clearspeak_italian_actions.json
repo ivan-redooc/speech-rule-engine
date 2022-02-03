@@ -292,7 +292,7 @@
     [
       "Action",
       "superscript-ordinal",
-      "[n] children/*[1]; [t] \"alla\"; [n] children/*[2] (grammar:ordinal); [t] \"potenza\" (pause:short)"
+      "[n] children/*[1]; [t] \"elevato alla\"; [n] children/*[2] (grammar:ordinal); [t] \"potenza\" (pause:short)"
     ],
     [
       "Action",
@@ -322,7 +322,7 @@
     [
       "Action",
       "superscript-ordinal-power-number",
-      "[n] children/*[1]; [t] \"alla\"; [n] children/*[2] (grammar:ordinal); [t] \"potenza\" (pause:short)"
+      "[n] children/*[1]; [t] \"elevato alla\"; [n] children/*[2] (grammar:ordinal); [t] \"potenza\" (pause:short)"
     ],
     [
       "Action",
@@ -332,7 +332,7 @@
     [
       "Action",
       "superscript-ordinal-power-identifier",
-      "[n] children/*[1]; [t] \"alla\"; [n] children/*[2] (grammar:ordinal); [t] \"potenza\" (pause:short)"
+      "[n] children/*[1]; [t] \"elevato alla\"; [n] children/*[2] (grammar:ordinal); [t] \"potenza\" (pause:short)"
     ],
     [
       "Action",
@@ -987,12 +987,12 @@
     [
       "Action",
       "limlower",
-      "[n] children/*[1]; [t] \"sopra\"; [n] children/*[2] (pause:short)"
+      "[n] children/*[1]; [t] \"superiore\"; [n] children/*[2] (pause:short)"
     ],
     [
       "Action",
       "limupper",
-      "[n] children/*[1]; [t] \"sotto\"; [n] children/*[2] (pause:short)"
+      "[n] children/*[1]; [t] \"inferiore\"; [n] children/*[2] (pause:short)"
     ],
     [
       "Action",
