@@ -7,7 +7,7 @@
     "key": "2113",
     "mappings": {
       "default": {
-        "default": "script l minuscola"
+        "default": "l minuscola"
       }
     }
   },
@@ -16,7 +16,7 @@
     "key": "2118",
     "mappings": {
       "default": {
-        "default": "script P maiuscola"
+        "default": "P maiuscola"
       }
     }
   },
