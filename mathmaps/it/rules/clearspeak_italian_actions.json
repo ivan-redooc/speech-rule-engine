@@ -997,7 +997,7 @@
     [
       "Action",
       "integral",
-      "[t] \"di\"; [n] children/*[1]; [t] \"di\"; [n] children/*[2] (pause:short)"
+      "[t] \"\"; [n] children/*[1]; [t] \"di\"; [n] children/*[2] (pause:short)"
     ],
     [
       "Action",
