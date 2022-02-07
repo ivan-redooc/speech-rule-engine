@@ -34,7 +34,7 @@
     "key": "26AA",
     "mappings": {
       "default": {
-        "default": "cerchio bianco"
+        "default": "cerchio"
       }
     }
   },
@@ -403,7 +403,7 @@
     "key": "2740",
     "mappings": {
       "default": {
-        "default": "florette bianco"
+        "default": "florette"
       }
     }
   },
@@ -520,7 +520,7 @@
     "key": "274D",
     "mappings": {
       "default": {
-        "default": "cerchio bianco ombreggiato"
+        "default": "cerchio ombreggiato"
       }
     }
   }

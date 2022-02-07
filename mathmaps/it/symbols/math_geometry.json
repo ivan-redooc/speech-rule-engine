@@ -1456,7 +1456,7 @@
     "key": "25A1",
     "mappings": {
       "default": {
-        "default": "quadrato bianco"
+        "default": "quadrato"
       }
     }
   },
@@ -1465,7 +1465,7 @@
     "key": "25A2",
     "mappings": {
       "default": {
-        "default": "quadrato bianco con angoli arrotondati"
+        "default": "quadrato con angoli arrotondati"
       }
     }
   },
@@ -1474,7 +1474,7 @@
     "key": "25A3",
     "mappings": {
       "default": {
-        "default": "quadrato bianco contenente quadratino nero"
+        "default": "quadrato contenente quadratino nero"
       }
     }
   },
@@ -1546,7 +1546,7 @@
     "key": "25AB",
     "mappings": {
       "default": {
-        "default": "quadrato bianco"
+        "default": "quadrato"
       }
     }
   },
@@ -1564,7 +1564,7 @@
     "key": "25AD",
     "mappings": {
       "default": {
-        "default": "rettangolo bianco"
+        "default": "rettangolo"
       }
     }
   },
@@ -1582,7 +1582,7 @@
     "key": "25AF",
     "mappings": {
       "default": {
-        "default": "rettangolo verticale bianco"
+        "default": "rettangolo verticale"
       }
     }
   },
@@ -1600,7 +1600,7 @@
     "key": "25B1",
     "mappings": {
       "default": {
-        "default": "parallelogramma bianco"
+        "default": "parallelogramma"
       }
     }
   },
@@ -1618,7 +1618,7 @@
     "key": "25B3",
     "mappings": {
       "default": {
-        "default": "triangolo bianco"
+        "default": "triangolo"
       }
     }
   },
@@ -1636,7 +1636,7 @@
     "key": "25B5",
     "mappings": {
       "default": {
-        "default": "piccolo triangolo bianco che punta in alto"
+        "default": "piccolo triangolo che punta in alto"
       }
     }
   },
@@ -1654,7 +1654,7 @@
     "key": "25B7",
     "mappings": {
       "default": {
-        "default": "triangolo bianco a destra"
+        "default": "triangolo a destra"
       }
     }
   },
@@ -1672,7 +1672,7 @@
     "key": "25B9",
     "mappings": {
       "default": {
-        "default": "triangolo piccolo a destra bianco"
+        "default": "triangolo piccolo a destra"
       }
     }
   },
@@ -1690,7 +1690,7 @@
     "key": "25BB",
     "mappings": {
       "default": {
-        "default": "puntatore a destra bianco"
+        "default": "puntatore a destra"
       }
     }
   },
@@ -1708,7 +1708,7 @@
     "key": "25BD",
     "mappings": {
       "default": {
-        "default": "triangolo verso il basso bianco"
+        "default": "triangolo verso il basso"
       }
     }
   },
@@ -1744,7 +1744,7 @@
     "key": "25C1",
     "mappings": {
       "default": {
-        "default": "triangolo bianco a sinistra"
+        "default": "triangolo a sinistra"
       }
     }
   },
@@ -1762,7 +1762,7 @@
     "key": "25C3",
     "mappings": {
       "default": {
-        "default": "triangolo piccolo a sinistra bianco"
+        "default": "triangolo piccolo a sinistra"
       }
     }
   },
@@ -1780,7 +1780,7 @@
     "key": "25C5",
     "mappings": {
       "default": {
-        "default": "puntatore a sinistra bianco"
+        "default": "puntatore a sinistra"
       }
     }
   },
@@ -1798,7 +1798,7 @@
     "key": "25C7",
     "mappings": {
       "default": {
-        "default": "diamante bianco"
+        "default": "diamante"
       }
     }
   },
@@ -1807,7 +1807,7 @@
     "key": "25C8",
     "mappings": {
       "default": {
-        "default": "diamante bianco contenente un piccolo diamante nero"
+        "default": "diamante contenente un piccolo diamante nero"
       }
     }
   },
@@ -1834,7 +1834,7 @@
     "key": "25CB",
     "mappings": {
       "default": {
-        "default": "cerchio bianco"
+        "default": "cerchio"
       }
     }
   },
@@ -2131,7 +2131,7 @@
     "key": "25EC",
     "mappings": {
       "default": {
-        "default": "triangolo bianco con punto"
+        "default": "triangolo con punto"
       }
     }
   },
@@ -2167,7 +2167,7 @@
     "key": "25F0",
     "mappings": {
       "default": {
-        "default": "quadrato bianco con quadrante in alto a sinistra"
+        "default": "quadrato con quadrante in alto a sinistra"
       }
     }
   },
@@ -2176,7 +2176,7 @@
     "key": "25F1",
     "mappings": {
       "default": {
-        "default": "quadrato bianco con quadrante inferiore sinistro"
+        "default": "quadrato con quadrante inferiore sinistro"
       }
     }
   },
@@ -2185,7 +2185,7 @@
     "key": "25F2",
     "mappings": {
       "default": {
-        "default": "quadrato bianco con quadrante inferiore destro"
+        "default": "quadrato con quadrante inferiore destro"
       }
     }
   },
@@ -2194,7 +2194,7 @@
     "key": "25F3",
     "mappings": {
       "default": {
-        "default": "quadrato bianco con quadrante in alto a destra"
+        "default": "quadrato con quadrante in alto a destra"
       }
     }
   },
@@ -2203,7 +2203,7 @@
     "key": "25F4",
     "mappings": {
       "default": {
-        "default": "cerchio bianco con quadrante in alto a sinistra"
+        "default": "cerchio con quadrante in alto a sinistra"
       }
     }
   },
@@ -2212,7 +2212,7 @@
     "key": "25F5",
     "mappings": {
       "default": {
-        "default": "cerchio bianco con quadrante in basso a sinistra"
+        "default": "cerchio con quadrante in basso a sinistra"
       }
     }
   },
@@ -2221,7 +2221,7 @@
     "key": "25F6",
     "mappings": {
       "default": {
-        "default": "cerchio bianco con quadrante inferiore destro"
+        "default": "cerchio con quadrante inferiore destro"
       }
     }
   },
@@ -2230,7 +2230,7 @@
     "key": "25F7",
     "mappings": {
       "default": {
-        "default": "cerchio bianco con quadrante in alto a destra"
+        "default": "cerchio con quadrante in alto a destra"
       }
     }
   },
@@ -2266,7 +2266,7 @@
     "key": "25FB",
     "mappings": {
       "default": {
-        "default": "quadrato bianco"
+        "default": "quadrato"
       }
     }
   },
@@ -2284,7 +2284,7 @@
     "key": "25FD",
     "mappings": {
       "default": {
-        "default": "quadrato piccolo bianco"
+        "default": "quadrato piccolo"
       }
     }
   },
@@ -2401,7 +2401,7 @@
     "key": "2B1C",
     "mappings": {
       "default": {
-        "default": "grande quadrato bianco"
+        "default": "quadrato grande"
       }
     }
   },
@@ -2419,7 +2419,7 @@
     "key": "2B1E",
     "mappings": {
       "default": {
-        "default": "quadrato bianco molto piccolo"
+        "default": "quadrato molto piccolo"
       }
     }
   },
@@ -2437,7 +2437,7 @@
     "key": "2B20",
     "mappings": {
       "default": {
-        "default": "pentagono bianco"
+        "default": "pentagono"
       }
     }
   },
@@ -2446,7 +2446,7 @@
     "key": "2B21",
     "mappings": {
       "default": {
-        "default": "esagono bianco"
+        "default": "esagono"
       }
     }
   },
@@ -2491,7 +2491,7 @@
     "key": "2B26",
     "mappings": {
       "default": {
-        "default": "diamante bianco"
+        "default": "diamante"
       }
     }
   },
@@ -2509,7 +2509,7 @@
     "key": "2B28",
     "mappings": {
       "default": {
-        "default": "losanga bianco"
+        "default": "losanga"
       }
     }
   },

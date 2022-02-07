@@ -3707,7 +3707,7 @@
     "key": "27C1",
     "mappings": {
       "default": {
-        "default": "triangolo bianco contenente un piccolo triangolo bianco"
+        "default": "triangolo contenente un piccolo triangolo"
       }
     }
   },
@@ -3824,7 +3824,7 @@
     "key": "27D0",
     "mappings": {
       "default": {
-        "default": "diamante bianco con punto centrale"
+        "default": "diamante con punto centrale"
       }
     }
   },
@@ -3977,7 +3977,7 @@
     "key": "27E1",
     "mappings": {
       "default": {
-        "default": "diamante concavo bianco"
+        "default": "diamante concavo"
       }
     }
   },
@@ -3986,7 +3986,7 @@
     "key": "27E2",
     "mappings": {
       "default": {
-        "default": "diamante bianco a punta concava con segno di spunta a sinistra"
+        "default": "diamante a punta concava con segno di spunta a sinistra"
       }
     }
   },
@@ -3995,7 +3995,7 @@
     "key": "27E3",
     "mappings": {
       "default": {
-        "default": "diamante bianco a punta concava con segno di spunta a destra"
+        "default": "diamante a punta concava con segno di spunta a destra"
       }
     }
   },
@@ -4004,7 +4004,7 @@
     "key": "27E4",
     "mappings": {
       "default": {
-        "default": "quadrato bianco con segno di spunta a sinistra"
+        "default": "quadrato con segno di spunta a sinistra"
       }
     }
   },
@@ -4013,7 +4013,7 @@
     "key": "27E5",
     "mappings": {
       "default": {
-        "default": "quadrato bianco con segno di spunta a destra"
+        "default": "quadrato con segno di spunta a destra"
       }
     }
   },
@@ -4553,7 +4553,7 @@
     "key": "29EE",
     "mappings": {
       "default": {
-        "default": "quadrato bianco con barre errori"
+        "default": "quadrato con barre errori"
       }
     }
   },
@@ -4571,7 +4571,7 @@
     "key": "29F0",
     "mappings": {
       "default": {
-        "default": "diamante bianco con barre errore"
+        "default": "diamante con barre errore"
       }
     }
   },
@@ -4589,7 +4589,7 @@
     "key": "29F2",
     "mappings": {
       "default": {
-        "default": "cerchio bianco con barre errori"
+        "default": "cerchio con barre errori"
       }
     }
   },
@@ -7109,7 +7109,7 @@
     "key": "FE46",
     "mappings": {
       "default": {
-        "default": "punto sesamo bianco"
+        "default": "punto sesamo"
       }
     }
   },
@@ -7658,7 +7658,7 @@
     "key": "FFED",
     "mappings": {
       "default": {
-        "default": "quadrato nero halfwidth"
+        "default": "quadrato nero a mezza larghezza"
       }
     }
   },
@@ -7667,7 +7667,7 @@
     "key": "FFEE",
     "mappings": {
       "default": {
-        "default": "quadrato bianco halfwidth"
+        "default": "quadrato a mezza larghezza"
       }
     }
   }
