@@ -2266,7 +2266,7 @@
     "key": "25FB",
     "mappings": {
       "default": {
-        "default": "quadrato medio bianco"
+        "default": "quadrato bianco"
       }
     }
   },
@@ -2275,7 +2275,7 @@
     "key": "25FC",
     "mappings": {
       "default": {
-        "default": "quadrato nero medio"
+        "default": "quadrato nero"
       }
     }
   },
@@ -2284,7 +2284,7 @@
     "key": "25FD",
     "mappings": {
       "default": {
-        "default": "quadrato piccolo medio bianco"
+        "default": "quadrato piccolo bianco"
       }
     }
   },
@@ -2293,7 +2293,7 @@
     "key": "25FE",
     "mappings": {
       "default": {
-        "default": "quadrato nero medio piccolo"
+        "default": "quadrato piccolo nero"
       }
     }
   },
@@ -2482,7 +2482,7 @@
     "key": "2B25",
     "mappings": {
       "default": {
-        "default": "diamante medio nero"
+        "default": "diamante nero"
       }
     }
   },
@@ -2491,7 +2491,7 @@
     "key": "2B26",
     "mappings": {
       "default": {
-        "default": "diamante medio bianco"
+        "default": "diamante bianco"
       }
     }
   },
@@ -2500,7 +2500,7 @@
     "key": "2B27",
     "mappings": {
       "default": {
-        "default": "black Medium Losanga"
+        "default": "losanga nero"
       }
     }
   },
@@ -2509,7 +2509,7 @@
     "key": "2B28",
     "mappings": {
       "default": {
-        "default": "losanga medio bianco"
+        "default": "losanga bianco"
       }
     }
   },

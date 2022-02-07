@@ -34,7 +34,7 @@
     "key": "26AA",
     "mappings": {
       "default": {
-        "default": "cerchio bianco medio"
+        "default": "cerchio bianco"
       }
     }
   },
@@ -43,7 +43,7 @@
     "key": "26AB",
     "mappings": {
       "default": {
-        "default": "cerchio nero medio"
+        "default": "cerchio nero"
       }
     }
   },
