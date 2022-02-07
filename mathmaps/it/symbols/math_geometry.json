@@ -1609,7 +1609,7 @@
     "key": "25B2",
     "mappings": {
       "default": {
-        "default": "triangolo up-pointing nero"
+        "default": "triangolo nero"
       }
     }
   },
@@ -1618,7 +1618,7 @@
     "key": "25B3",
     "mappings": {
       "default": {
-        "default": "triangolo up-pointing bianco"
+        "default": "triangolo bianco"
       }
     }
   },
@@ -1627,7 +1627,7 @@
     "key": "25B4",
     "mappings": {
       "default": {
-        "default": "triangolo piccolo a punta nera"
+        "default": "triangolo nero"
       }
     }
   },
@@ -2131,7 +2131,7 @@
     "key": "25EC",
     "mappings": {
       "default": {
-        "default": "triangolo up-pointing bianco con punto"
+        "default": "triangolo bianco con punto"
       }
     }
   },
