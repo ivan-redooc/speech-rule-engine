@@ -24,6 +24,7 @@ import * as Dcstr from '../rule_engine/dynamic_cstr';
 import * as EngineConst from './engine_const';
 
 import { Debugger } from './debugger';
+import { Variables } from './variables';
 
 declare const SREfeature: { [key: string]: any };
 
@@ -65,7 +66,9 @@ export default class Engine {
     'domain',
     'speech',
     'walker',
+    'defaultLocale',
     'locale',
+    'delay',
     'modality',
     'rate',
     'rules',
@@ -98,6 +101,16 @@ export default class Engine {
   public mode: EngineConst.Mode = EngineConst.Mode.SYNC;
 
   /**
+   * Init flag, initially set true. Set to false after first setup.
+   */
+  public init = true;
+
+  /**
+   * Delay flag, to avoid auto setup of engine.
+   */
+  public delay = false;
+
+  /**
    * Maps domains to comparators.
    */
   public comparators: { [key: string]: () => Dcstr.Comparator } = {};
@@ -113,9 +126,22 @@ export default class Engine {
   public style = Dcstr.DynamicCstr.DEFAULT_VALUES[Dcstr.Axis.STYLE];
 
   /**
+   * The default locale.
+   */
+  public _defaultLocale = Dcstr.DynamicCstr.DEFAULT_VALUES[Dcstr.Axis.LOCALE];
+
+  public set defaultLocale(loc: string) {
+    this._defaultLocale = Variables.ensureLocale(loc, this._defaultLocale);
+  }
+
+  public get defaultLocale() {
+    return this._defaultLocale;
+  }
+
+  /**
    * Current locale.
    */
-  public locale = Dcstr.DynamicCstr.DEFAULT_VALUES[Dcstr.Axis.LOCALE];
+  public locale = this.defaultLocale;
 
   /**
    * Current subiso for the locale.
@@ -242,6 +268,9 @@ export default class Engine {
    *    parameters.
    */
   public setDynamicCstr(opt_dynamic?: Dcstr.AxisMap) {
+    if (this.defaultLocale) {
+      Dcstr.DynamicCstr.DEFAULT_VALUES[Dcstr.Axis.LOCALE] = this.defaultLocale;
+    }
     if (opt_dynamic) {
       const keys = Object.keys(opt_dynamic);
       for (let i = 0; i < keys.length; i++) {
@@ -376,6 +405,6 @@ export class EnginePromise {
    * @returns All promises combined into one.
    */
   public static getall() {
-    return Promise.allSettled(Object.values(EnginePromise.promises));
+    return Promise.all(Object.values(EnginePromise.promises));
   }
 }

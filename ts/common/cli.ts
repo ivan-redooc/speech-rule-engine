@@ -33,14 +33,15 @@ import { Variables } from './variables';
 export class Cli {
   public process = SystemExternal.extRequire('process');
 
-  public setup: { [key: string]: string | boolean };
+  public setup: { [key: string]: string | boolean } = {
+    mode: EngineConst.Mode.SYNC
+  };
 
   public processors: string[] = [];
 
   public dp: DOMParser;
+
   constructor() {
-    this.setup = { mode: EngineConst.Mode.SYNC };
-    System.setupEngine(this.setup);
     this.dp = new SystemExternal.xmldom.DOMParser({
       errorHandler: function (_key: string, _msg: string) {
         throw new SREError('XML DOM error!');
@@ -72,7 +73,7 @@ export class Cli {
    * Loads all possible locales asynchronously.
    */
   private async loadLocales() {
-    for (const loc of Variables.LOCALES) {
+    for (const loc of Variables.LOCALES.keys()) {
       await System.setupEngine({ locale: loc });
     }
   }
@@ -211,7 +212,7 @@ export class Cli {
   /**
    * Method for the command line interface of the Speech Rule Engine
    */
-  public commandLine() {
+  public async commandLine() {
     const commander = SystemExternal.commander;
     const system = System;
     const set = ((key: string) => {
@@ -336,7 +337,7 @@ export class Cli {
         this.enumerate(true).then(() => System.exit(0));
       })
       .parse(this.process.argv);
-    System.setupEngine(this.setup);
+    await System.engineReady().then(() => System.setupEngine(this.setup));
     const options = commander.opts();
     if (options.verbose) {
       Debugger.getInstance().init(options.log);

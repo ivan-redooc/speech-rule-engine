@@ -18,6 +18,7 @@
  * @author v.sorge@mathjax.org (Volker Sorge)
  */
 
+import { DynamicCstr } from '../rule_engine/dynamic_cstr';
 import { SpeechRuleStore } from '../rule_engine/speech_rule_store';
 import * as StoreUtil from '../rule_engine/store_util';
 
@@ -56,25 +57,29 @@ export function OtherRules() {
  */
 export function BrailleRules() {
   // Basic Nemeth
-  SpeechRules.addStore('nemeth.braille.default', 'en.speech.mathspeak', {
-    CSFopenFraction: NemethUtil.openingFraction,
-    CSFcloseFraction: NemethUtil.closingFraction,
-    CSFoverFraction: NemethUtil.overFraction,
+  SpeechRules.addStore(
+    'nemeth.braille.default',
+    DynamicCstr.BASE_LOCALE + '.speech.mathspeak',
+    {
+      CSFopenFraction: NemethUtil.openingFraction,
+      CSFcloseFraction: NemethUtil.closingFraction,
+      CSFoverFraction: NemethUtil.overFraction,
 
-    CSFoverBevFraction: NemethUtil.overBevelledFraction,
-    // Radical function.
-    CSFopenRadical: NemethUtil.openingRadical,
-    CSFcloseRadical: NemethUtil.closingRadical,
+      CSFoverBevFraction: NemethUtil.overBevelledFraction,
+      // Radical function.
+      CSFopenRadical: NemethUtil.openingRadical,
+      CSFcloseRadical: NemethUtil.closingRadical,
 
-    CSFindexRadical: NemethUtil.indexRadical,
-    CSFsubscript: MathspeakUtil.subscriptVerbose,
-    CSFsuperscript: MathspeakUtil.superscriptVerbose,
+      CSFindexRadical: NemethUtil.indexRadical,
+      CSFsubscript: MathspeakUtil.subscriptVerbose,
+      CSFsuperscript: MathspeakUtil.superscriptVerbose,
 
-    CSFbaseline: MathspeakUtil.baselineVerbose,
+      CSFbaseline: MathspeakUtil.baselineVerbose,
 
-    CGFtensorRules: (st: SpeechRuleStore) =>
-      MathspeakUtil.generateTensorRules(st, false),
-    CTFrelationIterator: NemethUtil.relationIterator,
-    CTFimplicitIterator: NemethUtil.implicitIterator
-  });
+      CGFtensorRules: (st: SpeechRuleStore) =>
+        MathspeakUtil.generateTensorRules(st, false),
+      CTFrelationIterator: NemethUtil.relationIterator,
+      CTFimplicitIterator: NemethUtil.implicitIterator
+    }
+  );
 }
